@@ -22,4 +22,4 @@ There are two folders: Data and Figures. The __Data__ folder contains both the i
 Some plotting code was generated with the assistance of the GPT-4o model. This is indicated in the respective sections of the notebook. 
 
 ### A link to GitHub repository
-[https://github.com/shmr-anna/assessing-the-impact-of-question-ambiguity-in-qa-systtems]
+[https://github.com/shmr-anna/assessing-the-impact-of-question-ambiguity-in-qa-systems]
