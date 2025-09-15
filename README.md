@@ -16,7 +16,7 @@ We created a new custom dataset for lexical ambiguity evaluation. It consists of
 - STEP 5: Evaluation with Sentence-BERT
 
 ### Files submitted
-There are two folders: Data and Figures. The _Data_ folder contains both the input datasets used in the experiments and the datasets generated during the exaluation process. The _Figures_ folder includes all plots and visualizations for the experiments.
+There are two folders: Data and Figures. The __Data__ folder contains both the input datasets used in the experiments and the datasets generated during the exaluation process. The __Figures__ folder includes all plots and visualizations for the experiments.
 
 ### Note
 Some plotting code was generated with the assistance of the GPT-4o model. This is indicated in the respective sections of the notebook. 
