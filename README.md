@@ -9,11 +9,11 @@ Lexical ambiguity relates to words having multiple possible meanings in question
 ### Experimental Setup
 We created a new custom dataset for lexical ambiguity evaluation. It consists of 1,265 ambiguous, same amount of non-ambiguous questions, and a corresponding ground truth answer. Dataset was derived from SQuAD 2.0 answerable questions. Six extractive transformer-based models were evaluated: BERT (base, large), RoBERTa (base, lagre), DeBERTa-V3 (base, large). We used fine-tuned on SQuAD 2.0 versions of the models. Models answer predictions were compared to gold answers. For that, we used Exact Match (EM) and F1 score as a standard metrics, and Sentence-BERT (SBERT) as a task-specific metrics for computing cosine similarity. We also performed a qualitative error analysis of predicted outputs, and based on findings, conducted two additional experiments - special [CLS] token masking and analysis of question length.
 
-STEP 1: Dataset Generation
-STEP 2: Dataset Analysis
-STEP 3: Model Evaluation
-STEP 4: Evaluation with CLS masking
-STEP 5: Evaluation with Sentence-BERT
+- STEP 1: Dataset Generation
+- STEP 2: Dataset Analysis
+- STEP 3: Model Evaluation
+- STEP 4: Evaluation with CLS masking
+- STEP 5: Evaluation with Sentence-BERT
 
 ### Files submitted
 There are two folders: Data and Figures. The _Data_ folder contains both the input datasets used in the experiments and the datasets generated during the exaluation process. The _Figures_ folder includes all plots and visualizations for the experiments.
