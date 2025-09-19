@@ -1,0 +1,7 @@
+model,cs_orig_gold,cs_ambig_gold,delta
+bert-base,0.95,0.79,0.16
+bert-large,0.95,0.86,0.09
+deberta-base,0.99,0.8,0.19
+deberta-large,0.97,0.78,0.19
+roberta-base,0.92,0.77,0.15
+roberta-large,0.98,0.77,0.21
